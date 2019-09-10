@@ -4,11 +4,12 @@ from codecs import open
 
 def build_corpus(split, make_vocab=True, data_dir="./ResumeNER"):
     """读取数据"""
+    # assert split in ['train', 'dev', 'test']
     assert split in ['train', 'dev', 'test']
 
     word_lists = []
     tag_lists = []
-    with open(join(data_dir, split+".char.bmes"), 'r', encoding='utf-8') as f:
+    with open(join(data_dir, split+".new"), 'r', encoding='utf-8') as f:
         word_list = []
         tag_list = []
         for line in f:

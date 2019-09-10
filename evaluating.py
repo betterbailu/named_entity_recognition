@@ -20,7 +20,7 @@ class Metrics(object):
         self.correct_tags_number = self.count_correct_tags()
         self.predict_tags_counter = Counter(self.predict_tags)
         self.golden_tags_counter = Counter(self.golden_tags)
-
+        print(self.tagset)
         # 计算精确率
         self.precision_scores = self.cal_precision()
 
@@ -34,7 +34,10 @@ class Metrics(object):
 
         precision_scores = {}
         for tag in self.tagset:
-            precision_scores[tag] = self.correct_tags_number.get(tag, 0) / \
+            if self.predict_tags_counter[tag]==0:
+                precision_scores[tag] = 0
+            else:
+                precision_scores[tag] = self.correct_tags_number.get(tag, 0) / \
                 self.predict_tags_counter[tag]
 
         return precision_scores

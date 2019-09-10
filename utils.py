@@ -73,3 +73,19 @@ def error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, filepath):
             fr.write("\n")
     fr.close()
 
+def data_clean(filename,outpath):
+    out = open(outpath,"w")
+    fr = open(filename)
+    for line in fr.readlines():
+        line = line.strip().split()
+        if len(line)==0:
+            out.write("\n")
+        else:
+            line = line[0]+ "\t" + line[3]
+            out.write(str(line)+"\n")
+    fr.close()
+    out.close()
+
+if __name__ == "__main__":
+    data_clean("./ResumeNER/eng","./ResumeNER/eng")
+

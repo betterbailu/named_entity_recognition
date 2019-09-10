@@ -22,10 +22,13 @@ def hmm_train_eval(train_data, test_data, word2id, tag2id, remove_O=False):
                     tag2id)
     save_model(hmm_model, "./ckpts/hmm.pkl")
 
+    test_word_lists = [x for x in test_word_lists if x != []]
+    test_tag_lists = [x for x in test_tag_lists if x != []]
     # 评估hmm模型
     pred_tag_lists = hmm_model.test(test_word_lists,
                                     word2id,
                                     tag2id)
+    # print(pred_tag_lists)
     error_analysis(test_word_lists,test_tag_lists, pred_tag_lists, data_dir+"/HMM_Error.txt")
 
     metrics = Metrics(test_tag_lists, pred_tag_lists, remove_O=remove_O)
@@ -67,6 +70,13 @@ def bilstm_train_and_eval(train_data, dev_data, test_data,
     vocab_size = len(word2id)
     out_size = len(tag2id)
     bilstm_model = BILSTM_Model(vocab_size, out_size, crf=crf)
+
+    test_word_lists = [x for x in test_word_lists if x != []]
+    test_tag_lists = [x for x in test_tag_lists if x != []]
+
+    dev_word_lists = [x for x in dev_word_lists if x != []]
+    dev_tag_lists = [x for x in dev_tag_lists if x != []]
+
     bilstm_model.train(train_word_lists, train_tag_lists,
                        dev_word_lists, dev_tag_lists, word2id, tag2id)
 
