@@ -57,3 +57,19 @@ def flatten_lists(lists):
         else:
             flatten_list.append(l)
     return flatten_list
+
+def error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, filepath):
+    fr = open(filepath,'w')
+    for i in range(len(test_tag_lists)):
+        if test_tag_lists[i] != pred_tag_lists[i]:
+            fr.write(str(test_word_lists[i]).replace("'",'').strip()+"\n")
+            fr.write(str(test_tag_lists[i]).replace("'",'').strip()+"\n")
+            fr.write(str(pred_tag_lists[i]).replace("'",'').strip()+"\n")
+            for j in range(len(test_tag_lists[i])):
+                if test_tag_lists[i][j] != pred_tag_lists[i][j]:
+                    fr.write(str(test_word_lists[i][j])+ "\t")
+                    fr.write(str(test_tag_lists[i][j])+ "\t")
+                    fr.write(str(pred_tag_lists[i][j])+"\n")
+            fr.write("\n")
+    fr.close()
+

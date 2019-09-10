@@ -4,9 +4,10 @@ from collections import Counter
 from models.hmm import HMM
 from models.crf import CRFModel
 from models.bilstm_crf import BILSTM_Model
-from utils import save_model, flatten_lists
+from utils import save_model, flatten_lists, error_analysis
 from evaluating import Metrics
 
+data_dir="./Error"
 
 def hmm_train_eval(train_data, test_data, word2id, tag2id, remove_O=False):
     """训练并评估hmm模型"""
@@ -25,12 +26,14 @@ def hmm_train_eval(train_data, test_data, word2id, tag2id, remove_O=False):
     pred_tag_lists = hmm_model.test(test_word_lists,
                                     word2id,
                                     tag2id)
+    error_analysis(test_word_lists,test_tag_lists, pred_tag_lists, data_dir+"/HMM_Error.txt")
 
     metrics = Metrics(test_tag_lists, pred_tag_lists, remove_O=remove_O)
     metrics.report_scores()
     metrics.report_confusion_matrix()
 
     return pred_tag_lists
+
 
 
 def crf_train_eval(train_data, test_data, remove_O=False):
@@ -44,6 +47,8 @@ def crf_train_eval(train_data, test_data, remove_O=False):
     save_model(crf_model, "./ckpts/crf.pkl")
 
     pred_tag_lists = crf_model.test(test_word_lists)
+
+    error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, data_dir + "/CRF_Error.txt")
 
     metrics = Metrics(test_tag_lists, pred_tag_lists, remove_O=remove_O)
     metrics.report_scores()
@@ -72,7 +77,10 @@ def bilstm_train_and_eval(train_data, dev_data, test_data,
     print("评估{}模型中...".format(model_name))
     pred_tag_lists, test_tag_lists = bilstm_model.test(
         test_word_lists, test_tag_lists, word2id, tag2id)
-
+    if crf == False:
+        error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, data_dir + "/BiLSTM_Error.txt")
+    else:
+        error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, data_dir + "/BiLSTM_CRF_Error.txt")
     metrics = Metrics(test_tag_lists, pred_tag_lists, remove_O=remove_O)
     metrics.report_scores()
     metrics.report_confusion_matrix()

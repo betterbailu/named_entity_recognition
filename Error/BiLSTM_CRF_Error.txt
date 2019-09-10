@@ -1,0 +1,1074 @@
+[1, 9, 6, 3, 年, 出, 生, ，, 工, 科, 学, 士, ，, 高, 级, 工, 程, 师, ，, 北, 京, 物, 资, 学, 院, 客, 座, 副, 教, 授, 。, <end>]
+[O, O, O, O, O, O, O, O, B-PRO, E-PRO, B-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, B-PRO, M-PRO, E-PRO, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+科	E-PRO	M-PRO
+学	B-EDU	E-PRO
+
+[1, 9, 8, 5, 年, 8, 月, —, 1, 9, 9, 3, 年, 在, 国, 家, 物, 资, 局, 、, 物, 资, 部, 、, 国, 内, 贸, 易, 部, 金, 属, 材, 料, 流, 通, 司, 从, 事, 国, 家, 统, 配, 钢, 材, 中, 特, 种, 钢, 材, 品, 种, 的, 全, 国, 调, 拔, 分, 配, 工, 作, ，, 先, 后, 任, 科, 员, 、, 副, 主, 任, 科, 员, 、, 主, 任, 科, 员, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, O, O, O, O, O, O, O, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+物	B-ORG	O
+资	M-ORG	O
+部	E-ORG	O
+国	O	M-ORG
+调	O	M-ORG
+拔	O	M-ORG
+
+[1, 9, 9, 3, 年, 5, 月, —, 1, 9, 9, 9, 年, 5, 月, 受, 国, 内, 贸, 易, 部, 委, 派, 到, 国, 内, 贸, 易, 部, 、, 冶, 金, 部, 、, 天, 津, 市, 政, 府, 共, 同, 领, 导, 组, 建, 的, 北, 洋, (, 天, 津, ), 钢, 材, 批, 发, 交, 易, 市, 场, 任, 理, 事, 长, 助, 理, 、, 副, 总, 裁, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, O, O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O]
+国	B-ORG	O
+内	M-ORG	O
+贸	M-ORG	O
+易	M-ORG	O
+部	E-ORG	O
+国	B-ORG	O
+内	M-ORG	O
+贸	M-ORG	O
+易	M-ORG	O
+部	E-ORG	O
+冶	B-ORG	O
+金	M-ORG	O
+部	E-ORG	O
+市	M-ORG	O
+政	M-ORG	O
+府	M-ORG	O
+共	M-ORG	O
+同	M-ORG	O
+领	M-ORG	O
+导	M-ORG	O
+组	M-ORG	O
+建	M-ORG	O
+的	M-ORG	O
+北	M-ORG	O
+
+[陈, 学, 军, 先, 生, ：, 1, 9, 6, 7, 年, 5, 月, 出, 生, ，, 大, 学, 毕, 业, ，, 高, 级, 经, 济, 师, 。, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, B-EDU, E-EDU, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+学	E-EDU	M-EDU
+毕	O	M-EDU
+业	O	E-EDU
+
+[无, 锡, 威, 孚, 高, 科, 技, 集, 团, 股, 份, 有, 限, 公, 司, 第, 四, 届, 、, 第, 五, 届, 监, 事, 会, 主, 席, ，, 第, 六, 届, 董, 事, 会, 副, 董, 事, 长, 兼, 总, 经, 理, ，, 第, 七, 届, 董, 事, 会, 董, 事, 长, 。, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, O, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+、	M-TITLE	O
+
+[历, 任, 中, 航, 供, 销, 汉, 中, 公, 司, 财, 务, 科, 员, 、, 副, 科, 长, 、, 科, 长, （, 经, 理, ）, 、, 副, 总, 会, 计, 师, ，, 汉, 航, 集, 团, 财, 务, 部, 副, 部, 长, 、, 人, 力, 资, 源, 部, 部, 长, 、, 财, 务, 审, 计, 部, 部, 长, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, M-TITLE, E-TITLE, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+经	B-TITLE	M-TITLE
+
+[现, 任, 中, 航, 工, 业, 长, 空, 精, 密, 机, 械, 制, 造, 公, 司, 副, 总, 经, 理, 兼, 总, 会, 计, 师, ，, 兼, 任, 陕, 西, 华, 燕, 航, 空, 仪, 表, 有, 限, 公, 司, 、, 陕, 西, 千, 山, 航, 空, 电, 子, 有, 限, 责, 任, 公, 司, 监, 事, ，, 中, 航, 电, 测, 仪, 器, 股, 份, 有, 限, 公, 监, 事, 会, 监, 事, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+公	E-ORG	M-ORG
+
+[苏, 洋, ：, 男, ，, 大, 学, 学, 历, ，, 中, 国, 注, 册, 会, 计, 师, 、, 会, 计, 师, 。, <end>]
+[B-NAME, E-NAME, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O]
+[M-NAME, E-NAME, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O]
+苏	B-NAME	M-NAME
+
+[徐, 献, 礼, ：, 男, ，, 汉, 族, ，, 河, 南, 平, 舆, 人, ，, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-RACE, E-RACE, O, B-LOC, M-LOC, M-LOC, M-LOC, E-LOC, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-RACE, E-RACE, O, B-TITLE, M-LOC, M-LOC, E-ORG, E-LOC, O]
+河	B-LOC	B-TITLE
+舆	M-LOC	E-ORG
+
+[1, 9, 9, 0, 年, 6, 月, 加, 入, 中, 国, 共, 产, 党, ，, 研, 究, 生, 文, 化, 程, 度, （, 新, 疆, 师, 范, 大, 学, 经, 济, 管, 理, 专, 业, ）, ，, 现, 任, 公, 司, 党, 委, 委, 员, 、, 纪, 委, 书, 记, 、, 监, 事, 会, 主, 席, 、, 工, 会, 主, 席, 。, <end>]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-EDU, M-EDU, M-EDU, M-EDU, M-EDU, M-EDU, E-EDU, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, O, B-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-EDU, M-EDU, E-EDU, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, O, B-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+生	M-EDU	E-EDU
+文	M-EDU	O
+化	M-EDU	M-ORG
+程	M-EDU	M-ORG
+度	E-EDU	M-ORG
+（	O	M-ORG
+新	B-ORG	M-ORG
+
+[李, 超, ，, 男, ，, 成, 都, 电, 力, 职, 工, 大, 学, 发, 电, 厂, 及, 电, 力, 系, 统, 专, 业, 毕, 业, ，, 高, 级, 工, 程, 师, 。, <end>]
+[B-NAME, E-NAME, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-EDU, M-EDU, M-EDU, M-EDU, M-EDU, M-EDU, M-EDU, M-EDU, E-EDU, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-NAME, E-NAME, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+学	E-ORG	M-ORG
+发	O	M-ORG
+电	B-EDU	M-ORG
+厂	M-EDU	E-ORG
+及	M-EDU	O
+电	M-EDU	B-PRO
+力	M-EDU	M-PRO
+系	M-EDU	M-PRO
+统	M-EDU	M-PRO
+专	M-EDU	M-PRO
+业	E-EDU	E-PRO
+
+[虞, 兔, 良, 先, 生, 于, 1, 9, 8, 9, 年, 至, 1, 9, 9, 4, 年, ，, 任, 浙, 江, 老, 凤, 祥, 首, 饰, 厂, 副, 厂, 长, ；, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+虞	B-NAME	O
+兔	M-NAME	O
+良	E-NAME	O
+
+[曾, 任, 华, 中, 理, 工, 大, 学, 机, 械, 厂, 财, 务, 部, 财, 务, 经, 理, 、, 华, 工, 科, 技, 产, 业, 股, 份, 有, 限, 公, 司, 财, 务, 部, 经, 理, 、, 武, 汉, 华, 工, 正, 源, 光, 子, 技, 术, 有, 限, 公, 司, 财, 务, 总, 监, 、, 副, 总, 经, 理, ，, 华, 工, 科, 技, 产, 业, 股, 份, 有, 限, 公, 司, 第, 四, 届, 、, 第, 五, 届, 监, 事, 会, 召, 集, 人, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, O, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+、	M-TITLE	O
+
+[曾, 任, 中, 国, 化, 工, 进, 出, 口, 总, 公, 司, 财, 务, 部, 会, 计, 科, 职, 员, ，, 中, 化, 伯, 利, 兹, 有, 限, 公, 司, 财, 务, 部, 财, 务, 总, 监, ，, 中, 国, 化, 工, 进, 出, 口, 总, 公, 司, 财, 会, 部, 投, 资, 科, 经, 理, ，, 中, 化, 国, 际, 实, 业, 公, 司, 财, 务, 部, 经, 理, ，, 中, 国, 化, 工, 进, 出, 口, 总, 公, 司, 石, 油, 中, 心, 财, 务, 部, 副, 总, 经, 理, 、, 化, 肥, 中, 心, 财, 务, 部, 副, 总, 经, 理, ，, 中, 国, 中, 化, 集, 团, 公, 司, 投, 资, 部, 副, 总, 经, 理, 、, 西, 北, 办, 事, 处, 主, 任, 、, 风, 险, 管, 理, 部, 副, 总, 经, 理, 、, 保, 险, 部, 总, 经, 理, 、, 风, 险, 管, 理, 部, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+司	M-ORG	E-ORG
+石	M-ORG	B-TITLE
+油	M-ORG	M-TITLE
+中	M-ORG	M-TITLE
+心	E-ORG	M-TITLE
+财	B-TITLE	M-TITLE
+
+[赫, 崇, 明, ，, 男, ，, 满, 族, ，, 中, 专, 学, 历, ，, 经, 济, 师, 。, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-RACE, E-RACE, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, E-TITLE, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, E-RACE, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, E-TITLE, O]
+满	B-RACE	O
+
+[1, 9, 6, 3, 年, 出, 生, ，, 重, 庆, 市, 璧, 山, 县, 人, ，, 中, 共, 党, 员, ，, 中, 国, 农, 业, 科, 学, 院, 研, 究, 生, 院, 博, 士, 毕, 业, ；, <end>]
+[O, O, O, O, O, O, O, O, B-LOC, M-LOC, M-LOC, M-LOC, M-LOC, M-LOC, E-LOC, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, E-EDU, O, O, O]
+[O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-LOC, M-LOC, E-LOC, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, E-EDU, O, O, O]
+重	B-LOC	B-TITLE
+庆	M-LOC	M-TITLE
+市	M-LOC	M-TITLE
+璧	M-LOC	M-TITLE
+
+[清, 华, 大, 学, 公, 共, 管, 理, 学, 院, M, P, A, 。, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, M-EDU, E-EDU, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, M-ORG, E-EDU, O]
+P	M-EDU	M-ORG
+
+[2, 0, 1, 4, 年, 2, 月, 2, 8, 日, 辞, 去, 独, 立, 董, 事, 职, 务, （, 尚, 未, 生, 效, ）, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O]
+独	B-TITLE	O
+
+[2, 0, 0, 0, 年, 1, 1, 月, 至, 2, 0, 0, 3, 年, 2, 月, 任, 北, 京, 航, 空, 航, 天, 大, 学, 副, 书, 记, 兼, 副, 校, 长, ，, 现, 任, 北, 京, 航, 空, 航, 天, 大, 学, 常, 务, 副, 校, 长, ，, 国, 家, 8, 6, 3, 计, 划, 计, 算, 机, 技, 术, 主, 题, 首, 席, 科, 学, 家, ，, 国, 家, 信, 息, 化, 专, 家, 咨, 询, 委, 员, 会, 成, 员, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+国	B-TITLE	B-ORG
+家	M-TITLE	M-ORG
+8	M-TITLE	M-ORG
+6	M-TITLE	M-ORG
+3	M-TITLE	M-ORG
+计	M-TITLE	M-ORG
+划	M-TITLE	M-ORG
+计	M-TITLE	M-ORG
+国	B-TITLE	B-ORG
+家	M-TITLE	M-ORG
+信	M-TITLE	M-ORG
+息	M-TITLE	M-ORG
+化	M-TITLE	M-ORG
+专	M-TITLE	M-ORG
+家	M-TITLE	M-ORG
+咨	M-TITLE	M-ORG
+询	M-TITLE	M-ORG
+委	M-TITLE	M-ORG
+员	M-TITLE	M-ORG
+会	M-TITLE	E-ORG
+成	M-TITLE	B-TITLE
+
+[曾, 先, 后, 任, 沈, 阳, 热, 电, 厂, 生, 技, 处, 专, 业, 工, 程, 师, 、, 锅, 炉, 分, 场, 主, 任, 、, 生, 技, 处, 处, 长, ；, <end>]
+[O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+锅	O	B-TITLE
+炉	B-TITLE	M-TITLE
+
+[曾, 任, 上, 海, 石, 化, 股, 份, 有, 限, 公, 司, 公, 用, 事, 业, 部, 计, 划, 财, 务, 科, 科, 长, 、, 上, 海, 石, 化, 股, 份, 有, 限, 公, 司, 水, 厂, 财, 务, 科, 科, 长, 、, 上, 海, 石, 化, 水, 务, 有, 限, 公, 司, 财, 务, 部, 主, 任, ，, 上, 海, 实, 业, 东, 滩, 投, 资, 开, 发, （, 集, 团, ）, 有, 限, 公, 司, 财, 务, 部, 副, 总, 经, 理, ，, 上, 海, 实, 业, 发, 展, 股, 份, 有, 限, 公, 司, 监, 事, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+司	E-ORG	M-ORG
+水	B-TITLE	M-ORG
+厂	M-TITLE	E-ORG
+财	M-TITLE	B-TITLE
+
+[现, 任, T, C, L, 集, 团, 助, 理, 总, 裁, 及, T, C, L, 通, 讯, 首, 席, 运, 营, 官, 、, T, C, L, 财, 务, 公, 司, 董, 事, 等, 职, 务, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, O, O, O]
+L	M-ORG	E-ORG
+通	M-ORG	B-TITLE
+讯	E-ORG	M-TITLE
+首	B-TITLE	M-TITLE
+
+[于, 恩, 军, 先, 生, 于, 2, 0, 0, 0, 年, 8, 月, 开, 始, 服, 务, 于, 本, 集, 团, 。, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, O]
+[O, O, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, O]
+于	B-NAME	O
+恩	M-NAME	O
+
+[于, 恩, 军, 先, 生, 2, 0, 0, 2, 年, 9, 月, 至, 2, 0, 0, 5, 年, 7, 月, 间, 曾, 任, 翰, 林, 汇, 信, 息, 产, 业, 公, 司, 总, 经, 理, ；, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+于	B-NAME	O
+恩	M-NAME	O
+
+[1, 9, 9, 4, 年, 6, 月, 至, 2, 0, 0, 0, 年, 7, 月, 间, 于, 恩, 军, 先, 生, 曾, 就, 职, 于, 海, 信, 集, 团, 公, 司, ，, 历, 任, 财, 务, 经, 理, 、, 总, 会, 计, 师, 等, 职, 务, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-NAME, M-NAME, E-NAME, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, E-NAME, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O]
+于	B-NAME	O
+恩	M-NAME	O
+
+[长, 期, 从, 事, 企, 业, 战, 略, 管, 理, 、, 家, 族, 企, 业, 管, 理, 和, 创, 业, 管, 理, 的, 研, 究, 与, 教, 学, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, M-PRO, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+族	O	M-PRO
+
+[入, 选, 国, 家, 人, 事, 部, 、, 科, 技, 部, 、, 教, 育, 部, 等, 批, 准, 的, ", 新, 世, 纪, 百, 千, 万, 人, 才, 工, 程, 国, 家, 级, 人, 选, ", (, 2, 0, 0, 5, ), 和, 教, 育, 部, 新, 世, 纪, 优, 秀, 人, 才, (, 2, 0, 0, 4, ), ，, 第, 四, 届, 全, 国, M, B, A, 专, 业, 学, 位, 教, 育, 指, 导, 委, 员, 会, 委, 员, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-EDU, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+全	O	M-ORG
+国	O	M-ORG
+M	O	M-ORG
+B	O	M-ORG
+A	O	M-ORG
+专	O	M-ORG
+业	O	M-ORG
+学	O	M-ORG
+位	O	E-EDU
+教	O	M-ORG
+育	O	M-ORG
+指	O	M-ORG
+导	O	M-ORG
+委	O	M-ORG
+员	O	M-ORG
+会	O	E-ORG
+委	O	B-TITLE
+员	O	E-TITLE
+
+[阎, 前, ，, 男, ，, <end>]
+[B-NAME, E-NAME, O, O, O]
+[M-NAME, E-NAME, O, O, O]
+阎	B-NAME	M-NAME
+
+[历, 任, 南, 京, 政, 治, 学, 院, 机, 关, 干, 部, 、, 学, 员, 队, 干, 部, ，, 北, 京, 军, 区, 舟, 桥, 第, 8, 5, 团, 宣, 传, 干, 事, ，, 天, 津, 军, 事, 检, 察, 院, 检, 察, 员, ，, 北, 京, 军, 区, 军, 事, 检, 察, 院, 检, 察, 员, ，, 深, 圳, 市, 企, 业, 联, 合, 会, 、, 深, 圳, 市, 企, 业, 家, 协, 会, 会, 员, 部, 副, 主, 任, 、, 办, 公, 室, 主, 任, ，, 北, 京, 友, 基, 房, 地, 产, 开, 发, 有, 限, 公, 司, 总, 经, 理, 助, 理, 兼, 办, 公, 室, 主, 任, ，, 深, 圳, 市, 特, 发, 集, 团, 有, 限, 公, 司, 总, 经, 理, 办, 公, 室, 副, 主, 任, 、, 兼, 董, 事, 长, 秘, 书, ，, 特, 发, 集, 团, 董, 事, 会, 秘, 书, 、, 董, 事, 长, 秘, 书, 、, 职, 工, 董, 事, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+学	B-TITLE	B-ORG
+员	M-TITLE	M-ORG
+队	M-TITLE	E-ORG
+干	M-TITLE	B-TITLE
+宣	B-TITLE	M-TITLE
+
+[曾, 任, 南, 京, 纺, 织, 品, 进, 出, 口, 股, 份, 有, 限, 公, 司, 副, 总, 经, 理, ，, 报, 告, 期, 内, 因, 公, 司, 另, 有, 任, 用, 辞, 去, 副, 总, 经, 理, 职, 务, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+内	O	M-ORG
+因	O	M-ORG
+公	O	M-ORG
+司	O	E-ORG
+辞	O	M-TITLE
+去	O	M-TITLE
+副	B-TITLE	M-TITLE
+
+[曾, 任, 无, 锡, 小, 天, 鹅, 股, 份, 有, 限, 公, 司, 供, 应, 链, 管, 理, 部, 总, 监, 、, 海, 外, 支, 持, 部, 总, 监, ，, 美, 的, 电, 器, 中, 央, 空, 调, 营, 销, 公, 司, 区, 域, 销, 售, 经, 理, 、, 合, 肥, 华, 凌, 电, 器, 有, 限, 公, 司, 采, 购, 副, 经, 理, ，, 合, 肥, 荣, 事, 达, 洗, 衣, 设, 备, 制, 造, 有, 限, 公, 司, 供, 应, 链, 管, 理, 部, 部, 长, 、, 总, 监, 等, 职, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, O, O]
+总	O	B-TITLE
+监	O	E-TITLE
+
+[1, 9, 6, 5, 年, 1, 1, 月, 出, 生, ，, 新, 加, 坡, 南, 洋, 理, 工, 大, 学, 公, 共, 关, 系, 学, 硕, 士, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, E-PRO, B-EDU, E-EDU, O]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, B-EDU, E-EDU, O]
+学	E-ORG	M-ORG
+公	B-PRO	M-ORG
+共	M-PRO	M-ORG
+关	M-PRO	M-ORG
+系	M-PRO	E-ORG
+学	E-PRO	B-EDU
+
+[1, 9, 8, 7, 年, 7, 月, 毕, 业, 于, 昆, 明, 工, 学, 院, 选, 矿, 专, 业, ，, 获, 工, 学, 学, 士, 学, 位, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, E-PRO, O, O, B-PRO, E-PRO, B-EDU, M-EDU, M-EDU, E-EDU, O]
+[O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-PRO, M-PRO, M-PRO, E-PRO, O, O, B-PRO, E-PRO, B-EDU, M-EDU, M-EDU, E-EDU, O]
+选	B-PRO	M-PRO
+
+[1, 9, 8, 7, 年, 至, 1, 9, 9, 8, 年, 8, 月, ，, 先, 后, 任, 大, 冶, 有, 色, 金, 属, 公, 司, 赤, 马, 山, 矿, 技, 术, 员, 、, 车, 间, 主, 任, 、, 副, 矿, 长, 、, 矿, 长, 、, 党, 委, 书, 记, ；, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+司	M-ORG	E-ORG
+赤	M-ORG	B-TITLE
+马	M-ORG	M-TITLE
+山	M-ORG	M-TITLE
+矿	E-ORG	M-TITLE
+技	B-TITLE	M-TITLE
+
+[1, 9, 9, 8, 年, 8, 月, 至, 1, 9, 9, 9, 年, 8, 月, ，, 任, 大, 冶, 有, 色, 金, 属, 公, 司, 铜, 录, 山, 矿, 矿, 长, 、, 党, 委, 书, 记, ；, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+司	M-ORG	E-ORG
+铜	M-ORG	B-TITLE
+录	M-ORG	M-TITLE
+山	M-ORG	M-TITLE
+矿	E-ORG	M-TITLE
+矿	B-TITLE	M-TITLE
+
+[曾, 任, 北, 京, 市, 朝, 阳, 区, 人, 民, 检, 察, 院, 副, 检, 察, 长, 、, 检, 察, 委, 员, 会, 委, 员, ，, 日, 本, 丰, 田, 汽, 车, 金, 融, 公, 司, 特, 别, 顾, 问, ，, 华, 电, 能, 源, 股, 份, 有, 限, 公, 司, 独, 立, 董, 事, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+察	M-TITLE	M-ORG
+委	M-TITLE	M-ORG
+员	M-TITLE	M-ORG
+会	M-TITLE	E-ORG
+委	M-TITLE	B-TITLE
+
+[方, 翥, ：, 男, ，, <end>]
+[B-NAME, E-NAME, O, O, O]
+[M-NAME, E-NAME, O, O, O]
+方	B-NAME	M-NAME
+
+[原, 任, 重, 庆, 港, 九, 股, 份, 有, 限, 公, 司, 监, 事, ，, 历, 任, 重, 庆, 港, 客, 运, 总, 站, 货, 运, 科, 长, 、, 副, 经, 理, ，, 重, 庆, 港, 商, 务, 处, 副, 处, 长, ，, 重, 庆, 港, 江, 北, 公, 司, 副, 经, 理, ，, 重, 庆, 港, 集, 装, 箱, 公, 司, 副, 总, 经, 理, ，, 重, 庆, 港, 业, 务, 处, 副, 处, 长, ，, 重, 庆, 港, 江, 北, 公, 司, 党, 委, 书, 记, ，, 重, 庆, 港, 九, 股, 份, 有, 限, 公, 司, 九, 龙, 坡, 集, 装, 箱, 码, 头, 分, 公, 司, 经, 理, 、, 党, 委, 书, 记, 等, 职, 务, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O]
+站	E-ORG	M-TITLE
+货	B-TITLE	M-TITLE
+副	B-TITLE	M-TITLE
+
+[1, 9, 7, 7, 年, 毕, 业, 于, 河, 北, 化, 工, 学, 院, 基, 本, 有, 机, 合, 成, 专, 业, ，, 本, 科, 学, 历, ，, 高, 级, 工, 程, 师, 、, 执, 业, 药, 师, 。, <end>]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, B-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+院	E-ORG	M-ORG
+基	B-PRO	M-ORG
+本	M-PRO	M-ORG
+有	M-PRO	M-ORG
+
+[曾, 先, 后, 任, 河, 北, 省, 医, 药, 工, 业, 总, 公, 司, 工, 程, 师, 、, 华, 泰, 药, 业, 有, 限, 公, 司, 总, 经, 理, 、, 3, 0, 1, 医, 院, 技, 术, 开, 发, 中, 心, 多, 肽, 室, 高, 级, 工, 程, 师, 。, <end>]
+[O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+院	M-ORG	E-ORG
+技	M-ORG	B-TITLE
+术	M-ORG	M-TITLE
+开	M-ORG	M-TITLE
+发	M-ORG	M-TITLE
+中	M-ORG	M-TITLE
+心	E-ORG	M-TITLE
+多	B-TITLE	M-TITLE
+
+[现, 任, 烟, 台, 东, 诚, 药, 业, 集, 团, 股, 份, 有, 限, 公, 司, 董, 事, 兼, 副, 总, 经, 理, ，, 北, 方, 制, 药, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, E-TITLE, O]
+药	E-ORG	M-ORG
+总	B-TITLE	M-TITLE
+
+[郭, 忠, ，, 男, ，, 大, 专, 文, 化, 。, <end>]
+[B-NAME, E-NAME, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+[M-NAME, E-NAME, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+郭	B-NAME	M-NAME
+
+[先, 后, 在, 广, 州, 军, 区, 十, 三, 师, 8, 6, 3, 4, 8, 总, 队, 服, 役, 、, 湖, 北, 宜, 昌, 毛, 涤, 纶, 厂, 、, 海, 南, 中, 国, 城, 任, 销, 售, 主, 管, ；, <end>]
+[O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+城	E-ORG	M-ORG
+任	O	M-ORG
+
+[“, 材, 料, 化, 工, ”, 专, 业, 博, 士, 点, 负, 责, 人, ；, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+“	B-ORG	O
+材	M-ORG	B-ORG
+博	M-ORG	E-ORG
+士	M-ORG	M-TITLE
+点	E-ORG	M-TITLE
+负	B-TITLE	M-TITLE
+
+[“, 材, 料, 科, 学, 与, 工, 程, ”, 浙, 江, 省, 重, 中, 之, 重, 学, 科, 负, 责, 人, ；, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+“	B-ORG	O
+材	M-ORG	B-ORG
+学	M-ORG	E-ORG
+科	E-ORG	M-TITLE
+负	B-TITLE	M-TITLE
+
+[浙, 江, 省, 腐, 蚀, 与, 防, 护, 学, 会, 理, 事, 长, ；, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, M-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+与	M-ORG	O
+护	M-ORG	M-TITLE
+学	M-ORG	M-TITLE
+会	E-ORG	M-TITLE
+理	B-TITLE	M-TITLE
+
+[浙, 江, 省, “, 十, 二, 五, ”, 重, 大, 科, 技, 专, 项, “, 纺, 织, 、, 皮, 革, 与, 塑, 料, ”, 转, 化, 工, 程, 专, 家, 组, 成, 员, 。, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, B-TITLE, E-TITLE, O]
+浙	B-ORG	O
+江	M-ORG	O
+省	M-ORG	O
+“	M-ORG	O
+十	M-ORG	O
+二	M-ORG	O
+五	M-ORG	O
+”	M-ORG	O
+重	M-ORG	O
+技	M-ORG	O
+专	M-ORG	O
+项	M-ORG	O
+“	M-ORG	O
+纺	M-ORG	O
+织	M-ORG	O
+、	M-ORG	O
+皮	M-ORG	O
+革	M-ORG	O
+与	M-ORG	O
+塑	M-ORG	O
+料	M-ORG	O
+”	M-ORG	O
+转	M-ORG	M-TITLE
+化	M-ORG	M-TITLE
+工	M-ORG	M-TITLE
+程	E-ORG	M-TITLE
+专	B-TITLE	M-TITLE
+成	M-TITLE	B-TITLE
+
+[1, 9, 7, 6, 年, 毕, 业, 于, 兰, 州, 大, 学, ，, 曾, 任, 嘉, 峪, 关, 市, 委, 组, 织, 部, 副, 科, 长, ，, 酒, 钢, 党, 委, 组, 织, 部, 科, 长, 、, 副, 部, 长, ，, 甘, 肃, 省, 人, 才, 交, 流, 中, 心, 副, 主, 任, ，, 甘, 肃, 省, 人, 事, 局, 开, 发, 区, 办, 事, 处, 主, 任, ，, 酒, 钢, 集, 团, 公, 司, 驻, 兰, 州, 办, 事, 处, 主, 任, ，, 酒, 钢, 集, 团, 公, 司, 总, 经, 理, 助, 理, ，, 兰, 钢, 党, 委, 副, 书, 记, 、, 纪, 委, 书, 记, 、, 组, 织, 部, 部, 长, ，, 酒, 钢, 集, 团, 公, 司, 党, 委, 副, 书, 记, ，, 兰, 钢, 党, 委, 书, 记, 。, <end>]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+委	E-ORG	M-ORG
+组	B-TITLE	M-ORG
+织	M-TITLE	M-ORG
+部	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+组	B-TITLE	M-TITLE
+局	M-ORG	E-ORG
+开	M-ORG	B-TITLE
+发	M-ORG	M-TITLE
+区	M-ORG	M-TITLE
+办	M-ORG	M-TITLE
+事	M-ORG	M-TITLE
+处	E-ORG	M-TITLE
+主	B-TITLE	M-TITLE
+钢	E-ORG	M-ORG
+党	B-TITLE	M-ORG
+委	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+钢	E-ORG	M-ORG
+党	B-TITLE	M-TITLE
+
+[曾, 任, 邮, 电, 部, 成, 都, 电, 缆, 厂, 生, 产, 处, 、, 供, 应, 处, 、, 销, 售, 处, 、, 原, 料, 分, 析, 处, 、, 计, 量, 处, 、, 科, 研, 处, 处, 长, 、, 总, 经, 理, 助, 理, ，, 四, 川, 汇, 源, 光, 通, 信, 有, 限, 公, 司, 副, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+处	M-TITLE	E-TITLE
+、	M-TITLE	O
+供	M-TITLE	B-TITLE
+处	M-TITLE	E-TITLE
+、	M-TITLE	O
+销	M-TITLE	B-TITLE
+处	M-TITLE	E-TITLE
+、	M-TITLE	O
+原	M-TITLE	B-TITLE
+料	M-TITLE	M-ORG
+分	M-TITLE	M-ORG
+析	M-TITLE	M-ORG
+处	M-TITLE	E-ORG
+、	M-TITLE	O
+计	M-TITLE	B-TITLE
+处	M-TITLE	E-TITLE
+、	M-TITLE	O
+科	M-TITLE	B-TITLE
+
+[历, 任, 空, 军, 华, 英, 寻, 呼, 网, 副, 总, 经, 理, 、, 北, 京, 华, 英, 台, 总, 经, 理, 、, 空, 军, 通, 信, 支, 援, 国, 家, 经, 济, 建, 设, 办, 公, 室, 副, 主, 任, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+网	E-ORG	M-ORG
+副	B-TITLE	M-TITLE
+台	E-ORG	M-ORG
+
+[历, 任, 上, 海, 市, 第, 四, 建, 筑, 工, 程, 公, 司, 机, 械, 施, 工, 队, 会, 计, ，, 上, 海, 市, 上, 投, 房, 地, 产, 有, 限, 公, 司, 财, 务, 会, 计, ，, 财, 务, 部, 经, 理, 助, 理, 等, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O]
+司	E-ORG	M-ORG
+机	B-TITLE	M-ORG
+械	M-TITLE	M-ORG
+施	M-TITLE	M-ORG
+工	M-TITLE	M-ORG
+队	M-TITLE	E-ORG
+会	M-TITLE	B-TITLE
+
+[曾, 任, 中, 国, 信, 达, 信, 托, 投, 资, 公, 司, 北, 京, 证, 券, 营, 业, 部, 总, 经, 理, 、, 证, 券, 业, 务, 总, 部, 副, 总, 经, 理, 兼, 北, 京, 营, 业, 部, 总, 经, 理, ，, 宏, 源, 证, 券, 股, 份, 有, 限, 公, 司, 总, 经, 理, 助, 理, 兼, 证, 券, 业, 务, 总, 部, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+券	M-ORG	E-ORG
+营	M-ORG	B-TITLE
+业	M-ORG	M-TITLE
+部	E-ORG	M-TITLE
+总	B-TITLE	M-TITLE
+证	B-ORG	B-TITLE
+券	M-ORG	M-TITLE
+业	M-ORG	M-TITLE
+务	M-ORG	M-TITLE
+总	M-ORG	M-TITLE
+部	E-ORG	M-TITLE
+副	B-TITLE	M-TITLE
+北	B-ORG	B-TITLE
+京	M-ORG	M-TITLE
+营	M-ORG	M-TITLE
+业	M-ORG	M-TITLE
+证	B-ORG	B-TITLE
+券	M-ORG	M-TITLE
+业	M-ORG	M-TITLE
+务	M-ORG	M-TITLE
+总	M-ORG	M-TITLE
+部	E-ORG	M-TITLE
+总	B-TITLE	M-TITLE
+
+[2, 0, 0, 4, 年, 加, 入, 本, 公, 司, ，, 并, 作, 为, 重, 要, 成, 员, 参, 与, 了, 本, 公, 司, 的, 海, 外, 上, 市, 工, 作, 。, <end>]
+[O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+本	B-ORG	O
+公	M-ORG	O
+司	E-ORG	O
+
+[2, 0, 0, 5, 年, 至, 今, 任, 本, 公, 司, 董, 事, 会, 秘, 书, ，, 持, 有, 香, 港, 秘, 书, 公, 会, 与, 深, 圳, 证, 券, 交, 易, 所, 颁, 发, 的, 董, 事, 会, 秘, 书, 资, 格, 证, 书, 。, <end>]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, B-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, M-TITLE, M-TITLE, O, O, O, O, O, O]
+香	B-ORG	O
+深	B-ORG	O
+会	O	M-TITLE
+秘	O	M-TITLE
+
+[2, 0, 0, 3, 年, 2, 月, 至, 今, 在, 珠, 海, 港, 股, 份, 有, 限, 公, 司, 董, 事, 局, 秘, 书, 处, 工, 作, ，, <end>]
+[O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O]
+董	O	B-TITLE
+事	O	M-TITLE
+局	O	M-TITLE
+秘	O	M-TITLE
+书	O	E-TITLE
+
+[1, 9, 8, 6, 年, 7, 月, —, —, 1, 9, 9, 9, 年, 6, 月, ，, 浙, 江, 大, 学, 经, 济, 学, 院, （, 原, 杭, 州, 大, 学, 金, 融, 与, 经, 贸, 学, 院, 、, 杭, 州, 大, 学, 财, 金, 系, 、, 杭, 州, 大, 学, 经, 济, 系, ）, 担, 任, 财, 政, 专, 业, 、, 会, 计, 专, 业, 专, 业, 课, 程, 教, 师, ，, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, B-PRO, M-PRO, M-PRO, E-PRO, O, B-PRO, M-PRO, M-PRO, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+财	B-TITLE	B-PRO
+政	M-TITLE	M-PRO
+专	M-TITLE	M-PRO
+业	M-TITLE	E-PRO
+、	M-TITLE	O
+会	M-TITLE	B-PRO
+计	M-TITLE	M-PRO
+专	M-TITLE	M-PRO
+
+[1, 9, 7, 0, 年, 3, 月, 出, 生, ，, 毕, 业, 于, 南, 京, 化, 工, 动, 力, 专, 科, 学, 校, 计, 算, 机, 系, 会, 计, 专, 业, ，, 全, 国, 高, 等, 教, 育, 自, 学, 考, 试, 会, 计, 专, 业, ，, 本, 科, ，, 高, 级, 会, 计, 师, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, E-PRO, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, E-PRO, O, B-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, E-PRO, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, B-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+学	M-ORG	M-PRO
+考	M-ORG	M-PRO
+试	E-ORG	M-PRO
+会	B-PRO	M-PRO
+
+[曾, 任, 西, 柏, 坡, 发, 电, 总, 厂, 财, 务, 科, 会, 计, 、, 河, 北, 省, 电, 力, 公, 司, 财, 务, 部, 会, 计, 处, 处, 长, 、, 中, 国, 华, 电, 集, 团, 公, 司, 财, 务, 管, 理, 部, 预, 算, 管, 理, 处, 副, 处, 级, 职, 员, 、, 中, 国, 华, 电, 集, 团, 公, 司, 财, 务, 管, 理, 部, 预, 算, 管, 理, 处, 副, 处, 长, 、, 处, 长, ，, 国, 电, 南, 京, 自, 动, 化, 股, 份, 有, 限, 公, 司, 第, 四, 、, 第, 五, 届, 监, 事, 会, 监, 事, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+预	M-TITLE	M-ORG
+算	M-TITLE	M-ORG
+管	M-TITLE	M-ORG
+理	M-TITLE	M-ORG
+处	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+管	M-TITLE	M-ORG
+理	M-TITLE	M-ORG
+部	M-TITLE	M-ORG
+预	M-TITLE	M-ORG
+算	M-TITLE	M-ORG
+管	M-TITLE	M-ORG
+理	M-TITLE	M-ORG
+处	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+
+[1, 9, 6, 8, 年, 生, 于, 辽, 宁, 省, 鞍, 山, 市, 。, <end>]
+[O, O, O, O, O, O, O, B-LOC, M-LOC, M-LOC, M-LOC, M-LOC, E-LOC, O]
+[O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O]
+辽	B-LOC	B-ORG
+宁	M-LOC	M-ORG
+省	M-LOC	M-ORG
+鞍	M-LOC	M-ORG
+山	M-LOC	M-ORG
+市	E-LOC	M-ORG
+
+[曾, 任, 安, 赛, 乐, 米, 塔, 尔, 研, 究, 发, 展, 部, 负, 责, 人, 、, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O]
+尔	E-ORG	M-ORG
+研	B-TITLE	M-ORG
+究	M-TITLE	M-ORG
+
+[1, 9, 5, 4, 年, 出, 生, ，, 中, 共, 党, 员, ，, 党, 校, 研, 究, 生, ，, 高, 级, 经, 济, 师, 。, <end>]
+[O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, E-ORG, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+党	B-TITLE	B-ORG
+校	M-TITLE	E-ORG
+研	M-TITLE	M-EDU
+究	M-TITLE	M-EDU
+生	E-TITLE	E-EDU
+
+[虞, 斌, ，, 男, ，, <end>]
+[B-NAME, E-NAME, O, O, O]
+[M-NAME, E-NAME, O, O, O]
+虞	B-NAME	M-NAME
+
+[曲, 云, 虹, 女, 士, ：, 监, 事, （, 职, 工, 代, 表, ）, ，, 中, 国, 国, 籍, (, 无, 境, 外, 永, 久, 居, 留, 权, ), ，, 中, 学, 学, 历, 。, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-TITLE, E-TITLE, O, O, O, O, O, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+职	B-TITLE	O
+工	M-TITLE	O
+代	M-TITLE	O
+表	E-TITLE	O
+
+[1, 9, 6, 6, 年, —, 1, 9, 7, 8, 年, 在, 中, 国, 人, 民, 解, 放, 军, 8, 0, 2, 3, 部, 队, 和, 空, 九, 军, 服, 役, ；, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, E-ORG, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, E-ORG, O, O]
+军	E-ORG	M-ORG
+服	O	E-ORG
+
+[曾, 嵘, 先, 生, ：, 1, 9, 7, 1, 年, 出, 生, ，, 男, ，, 中, 国, 国, 籍, ，, 无, 境, 外, 永, 久, 居, 留, 权, ；, <end>]
+[B-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O]
+曾	B-NAME	O
+嵘	E-NAME	O
+
+[曾, 嵘, 先, 生, 1, 9, 9, 0, ～, 1, 9, 9, 5, 年, 就, 读, 于, 清, 华, 大, 学, 电, 机, 系, ，, 后, 直, 接, 推, 荐, 攻, 读, 博, 士, 学, 位, ，, <end>]
+[B-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, B-EDU, M-EDU, M-EDU, E-EDU, O]
+曾	B-NAME	O
+嵘	E-NAME	O
+
+[曾, 嵘, 先, 生, 为, 输, 配, 电, 领, 域, 的, 专, 家, ，, 主, 要, 从, 事, 超, 、, 特, 高, 压, 交, 直, 流, 输, 电, 中, 的, 电, 磁, 暂, 态, 及, 其, 防, 护, 、, 电, 磁, 环, 境, ，, 配, 电, 系, 统, 自, 动, 化, 及, 其, 管, 理, 系, 统, 等, 的, 研, 究, 工, 作, 。, <end>]
+[B-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+曾	B-NAME	O
+嵘	E-NAME	O
+
+[曾, 嵘, 先, 生, 先, 后, 负, 责, 和, 参, 加, 了, 国, 家, 自, 然, 科, 学, 基, 金, 重, 点, 项, 目, 、, “, 9, 7, 3, 计, 划, ”, 、, “, 8, 6, 3, 计, 划, ”, 、, “, 十, 一, 五, ”, 科, 技, 支, 撑, 计, 划, 、, 直, 流, 输, 电, 国, 产, 化, 与, 特, 高, 压, 输, 电, 等, 几, 十, 项, 科, 研, 项, 目, ，, 获, 中, 国, 电, 力, 科, 技, 进, 步, 一, 等, 奖, 1, 项, ，, 教, 育, 部, 科, 技, 进, 步, 二, 等, 奖, 1, 项, ，, 中, 国, 能, 源, 科, 技, 进, 步, 二, 等, 奖, 1, 项, ，, 中, 国, 电, 力, 科, 技, 进, 步, 二, 等, 奖, 2, 项, 、, 三, 等, 奖, 多, 项, ，, 国, 家, 电, 网, 科, 技, 进, 步, 特, 等, 奖, 1, 项, ，, 北, 京, 市, 教, 学, 成, 果, 一, 等, 奖, 等, 奖, 项, 多, 项, 。, <end>]
+[B-NAME, E-NAME, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+曾	B-NAME	O
+嵘	E-NAME	O
+
+[曾, 嵘, 先, 生, 现, 为, I, E, T, F, e, l, l, o, w, ，, I, E, E, E, s, e, n, i, o, r, m, e, m, b, e, r, ，, C, I, G, R, E, S, C, C, 3, m, e, m, b, e, r, ，, I, E, C, T, C, 2, 2, /, M, T, 1, 5, 、, T, C, 2, 2, /, W, G, 1, 6, m, e, m, b, e, r, 、, 全, 国, 高, 压, 直, 流, 输, 电, 设, 备, 标, 准, 化, 技, 术, 委, 员, 会, 委, 员, 、, 中, 国, 电, 机, 工, 程, 学, 会, 高, 压, 专, 委, 会, 高, 压, 测, 试, 技, 术, 及, 设, 备, 学, 组, 副, 主, 任, 委, 员, 等, 。, <end>]
+[B-NAME, E-NAME, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O]
+[O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-ORG, M-ORG, M-ORG, M-LOC, M-LOC, M-LOC, M-LOC, M-LOC, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-ORG, E-ORG, O, B-EDU, M-PRO, M-PRO, M-PRO, B-EDU, M-EDU, M-EDU, M-EDU, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O]
+曾	B-NAME	O
+嵘	E-NAME	O
+I	B-TITLE	B-ORG
+E	M-TITLE	M-ORG
+T	M-TITLE	M-ORG
+F	M-TITLE	M-ORG
+e	M-TITLE	M-ORG
+l	M-TITLE	M-ORG
+l	M-TITLE	M-ORG
+o	M-TITLE	M-ORG
+w	E-TITLE	E-ORG
+E	M-TITLE	M-ORG
+E	M-TITLE	M-ORG
+s	M-TITLE	M-ORG
+e	M-TITLE	M-LOC
+n	M-TITLE	M-LOC
+i	M-TITLE	M-LOC
+o	M-TITLE	M-LOC
+r	M-TITLE	M-LOC
+e	M-TITLE	M-ORG
+r	E-TITLE	E-ORG
+C	B-TITLE	B-EDU
+I	M-TITLE	M-PRO
+G	M-TITLE	M-PRO
+R	M-TITLE	M-PRO
+E	M-TITLE	B-EDU
+S	M-TITLE	M-EDU
+C	M-TITLE	M-EDU
+C	M-TITLE	M-EDU
+3	M-TITLE	O
+m	M-TITLE	O
+e	M-TITLE	O
+m	M-TITLE	O
+b	M-TITLE	O
+e	M-TITLE	O
+r	E-TITLE	O
+I	B-TITLE	O
+E	M-TITLE	O
+C	M-TITLE	O
+T	M-TITLE	O
+C	M-TITLE	O
+2	M-TITLE	O
+2	M-TITLE	O
+/	M-TITLE	O
+M	M-TITLE	O
+T	M-TITLE	O
+1	M-TITLE	O
+5	M-TITLE	O
+、	M-TITLE	O
+T	M-TITLE	O
+C	M-TITLE	O
+2	M-TITLE	O
+2	M-TITLE	O
+/	M-TITLE	O
+W	M-TITLE	O
+G	M-TITLE	O
+1	M-TITLE	O
+6	M-TITLE	O
+m	M-TITLE	O
+e	M-TITLE	O
+m	M-TITLE	O
+b	M-TITLE	O
+e	M-TITLE	O
+r	E-TITLE	O
+会	E-ORG	M-ORG
+高	B-TITLE	M-ORG
+压	M-TITLE	M-ORG
+测	M-TITLE	M-ORG
+试	M-TITLE	M-ORG
+技	M-TITLE	M-ORG
+术	M-TITLE	M-ORG
+及	M-TITLE	M-ORG
+设	M-TITLE	M-ORG
+备	M-TITLE	M-ORG
+学	M-TITLE	M-ORG
+组	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+
+[曾, 任, 湖, 南, 省, 株, 洲, 化, 工, 厂, 财, 务, 科, 会, 计, 、, 株, 洲, 市, 计, 划, 委, 员, 会, 经, 济, 信, 息, 中, 心, 副, 主, 任, 、, 中, 共, 株, 洲, 市, 委, 组, 织, 部, 副, 科, 长, 、, 科, 长, 等, 职, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, O, O]
+会	E-ORG	M-ORG
+经	B-TITLE	M-ORG
+济	M-TITLE	M-ORG
+信	M-TITLE	M-ORG
+息	M-TITLE	M-ORG
+中	M-TITLE	M-ORG
+心	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+委	E-ORG	M-ORG
+组	B-TITLE	M-ORG
+织	M-TITLE	M-ORG
+部	M-TITLE	E-ORG
+副	M-TITLE	B-TITLE
+
+[任, 永, 辉, 超, 市, 股, 份, 有, 限, 公, 司, 董, 事, 、, 副, 总, 裁, 兼, 管, 公, 司, 安, 徽, 、, 江, 苏, 及, 河, 南, 区, 域, 公, 共, 事, 务, 及, 投, 资, 。, <end>]
+[O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, O, O, O, O]
+苏	O	M-ORG
+及	O	M-ORG
+河	O	M-ORG
+南	O	M-ORG
+区	O	M-ORG
+域	O	M-ORG
+公	O	M-ORG
+共	O	M-ORG
+事	O	M-ORG
+
+[历, 任, 永, 辉, 超, 市, 股, 份, 有, 限, 公, 司, （, 前, 福, 建, 永, 辉, 集, 团, 有, 限, 公, 司, ）, 上, 渡, 店, 学, 习, 店, 助, 、, 店, 助, ，, 仓, 山, 片, 区, 区, 域, 店, 助, 、, 店, 长, ，, 闽, 南, 地, 区, 区, 域, 总, 经, 理, ，, 安, 徽, 区, 域, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, O, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+司	M-ORG	E-ORG
+（	M-ORG	O
+前	M-ORG	O
+福	M-ORG	O
+司	M-ORG	E-ORG
+）	M-ORG	O
+上	M-ORG	B-ORG
+店	E-ORG	M-ORG
+学	B-TITLE	M-ORG
+习	M-TITLE	M-ORG
+店	M-TITLE	M-ORG
+助	E-TITLE	E-ORG
+仓	B-TITLE	B-ORG
+山	M-TITLE	M-ORG
+片	M-TITLE	M-ORG
+区	M-TITLE	M-ORG
+区	M-TITLE	M-ORG
+助	E-TITLE	M-TITLE
+闽	B-TITLE	B-ORG
+南	M-TITLE	M-ORG
+地	M-TITLE	M-ORG
+区	M-TITLE	M-ORG
+区	M-TITLE	E-ORG
+域	M-TITLE	B-TITLE
+
+[龙, 伟, ：, 男, ，, <end>]
+[B-NAME, E-NAME, O, O, O]
+[M-NAME, E-NAME, O, O, O]
+龙	B-NAME	M-NAME
+
+[2, 0, 0, 2, 年, 1, 0, 月, -, 2, 0, 0, 8, 年, 3, 月, 在, 博, 世, 电, 动, 工, 具, （, 中, 国, ）, 有, 限, 公, 司, 任, 中, 国, 西, 部, 大, 区, 销, 售, 经, 理, ，, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, E-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+具	M-ORG	O
+（	M-ORG	O
+中	M-ORG	B-ORG
+中	B-TITLE	B-ORG
+国	M-TITLE	M-ORG
+西	M-TITLE	M-ORG
+部	M-TITLE	E-ORG
+大	M-TITLE	M-ORG
+区	M-TITLE	E-ORG
+销	M-TITLE	B-TITLE
+
+[曾, 任, 重, 汽, 技, 术, 中, 心, 副, 主, 任, ，, 中, 国, 重, 型, 汽, 车, 集, 团, 济, 南, 卡, 车, 有, 限, 公, 司, 总, 工, 程, 师, 、, 副, 总, 经, 理, ，, 中, 国, 重, 汽, 集, 团, 济, 南, 卡, 车, 股, 份, 有, 限, 公, 司, 常, 务, 副, 总, 经, 理, 等, 职, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+术	M-ORG	M-TITLE
+中	M-ORG	M-TITLE
+心	E-ORG	M-TITLE
+副	B-TITLE	M-TITLE
+
+[1, 9, 6, 9, 年, 2, 月, 生, ，, 法, 律, 研, 究, 生, ，, 四, 级, 律, 师, ，, 民, 革, 党, 员, ，, <end>]
+[O, O, O, O, O, O, O, O, O, B-PRO, E-PRO, B-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, B-PRO, M-EDU, M-EDU, M-EDU, E-EDU, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+律	E-PRO	M-EDU
+研	B-EDU	M-EDU
+
+[1, 9, 8, 9, 年, 7, 月, 参, 加, 工, 作, ，, 曾, 在, 上, 海, 卢, 湾, 区, 人, 民, 检, 察, 院, 起, 诉, 科, 、, 上, 海, 沪, 江, 律, 师, 事, 务, 所, 任, 职, ，, 现, 任, 上, 海, 市, 华, 通, 律, 师, 事, 务, 所, 主, 任, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+任	B-TITLE	O
+职	E-TITLE	O
+
+[西, 南, 财, 经, 大, 学, 会, 计, 学, 博, 士, 生, 导, 师, 。, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+会	B-TITLE	B-PRO
+计	M-TITLE	M-ORG
+学	M-TITLE	M-ORG
+博	M-TITLE	E-ORG
+
+[是, 推, 动, 建, 材, 工, 程, 建, 设, 领, 域, 国, 内, 外, 工, 程, 总, 承, 包, 模, 式, 的, 实, 践, 者, 和, 代, 表, 人, 物, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, O, O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, O, B-TITLE, M-TITLE, O, O, O]
+域	O	M-ORG
+国	O	M-ORG
+内	O	M-ORG
+实	O	B-TITLE
+践	O	M-TITLE
+者	O	M-TITLE
+代	O	B-TITLE
+表	O	M-TITLE
+
+[2, 0, 1, 3, 年, 8, 月, 2, 9, 日, 辞, 去, 山, 东, 鲁, 抗, 医, 药, 股, 份, 有, 限, 公, 司, 董, 事, 、, 副, 总, 经, 理, 职, 务, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O]
+山	B-ORG	M-ORG
+
+[曾, 任, 上, 海, 万, 众, 空, 调, 国, 际, 有, 限, 公, 司, 设, 计, 主, 管, 、, 加, 冷, 有, 限, 技, 术, 部, 部, 长, 、, 厦, 门, 松, 芝, 总, 经, 理, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, M-TITLE, M-TITLE, E-TITLE, O]
+总	B-TITLE	M-TITLE
+
+[侯, 玉, 清, 先, 生, ：, 职, 工, 代, 表, 监, 事, ，, 任, 期, 至, 2, 0, 1, 2, 年, 4, 月, 2, 9, 日, ，, 中, 国, 国, 籍, ，, 无, 永, 久, 境, 外, 居, 留, 权, ，, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-CONT, M-CONT, M-CONT, E-CONT, O, O, O, O, O, O, O, O, O, O]
+职	B-TITLE	O
+工	M-TITLE	B-TITLE
+
+[曾, 在, 江, 西, 有, 线, 电, 厂, 、, 广, 州, 通, 信, 研, 究, 所, 第, 五, 研, 究, 室, 工, 作, 。, <end>]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O]
+[O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O]
+所	E-ORG	M-ORG
+第	O	M-ORG
+五	O	M-ORG
+研	O	M-ORG
+究	O	M-ORG
+室	O	E-ORG
+
+[2, 0, 0, 0, 年, 起, 就, 职, 于, 广, 州, 杰, 赛, 科, 技, 股, 份, 有, 限, 公, 司, ，, 先, 后, 任, 职, 于, 通, 信, 设, 备, 分, 公, 司, 、, 技, 术, 中, 心, 、, 网, 络, 通, 信, 分, 公, 司, 等, 部, 门, ，, 现, 任, 职, 于, 网, 络, 通, 信, 分, 公, 司, 总, 经, 理, 。, <end>]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O]
+心	E-ORG	O
+司	E-ORG	O
+
+[先, 后, 在, 《, 数, 量, 经, 济, 技, 术, 经, 济, 研, 究, 》, 、, 《, 财, 务, 与, 会, 计, 》, 、, 《, 财, 经, 论, 丛, 》, 、, 《, 当, 代, 财, 经, 》, 、, 《, 四, 川, 会, 计, 》, 、, 《, 上, 海, 会, 计, 》, 、, 《, 广, 西, 会, 计, 》, 与, 《, 浙, 江, 财, 税, 与, 会, 计, 》, 等, 多, 家, 刊, 物, 上, 公, 开, 发, 表, 学, 术, 论, 文, 三, 十, 余, 篇, ，, 并, 主, 持, 或, 参, 与, 过, 中, 国, 会, 计, 学, 会, 课, 题, 、, 省, 教, 育, 厅, 课, 题, 和, 浙, 江, 财, 经, 学, 院, 课, 题, 近, 十, 项, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, O, O, O, O, O, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, O, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O]
+《	O	B-ORG
+数	O	M-ORG
+量	O	M-ORG
+经	O	M-ORG
+济	O	M-ORG
+技	O	M-ORG
+术	O	M-ORG
+经	O	M-ORG
+济	O	M-ORG
+研	O	M-ORG
+究	O	M-ORG
+》	O	E-ORG
+《	O	B-TITLE
+财	O	M-TITLE
+务	O	M-TITLE
+与	O	M-TITLE
+会	O	M-TITLE
+计	O	M-TITLE
+》	O	E-TITLE
+丛	O	M-TITLE
+》	O	E-TITLE
+《	O	B-ORG
+当	O	M-ORG
+代	O	M-ORG
+财	O	M-ORG
+经	O	M-TITLE
+》	O	E-TITLE
+《	O	B-TITLE
+四	O	M-TITLE
+川	O	M-TITLE
+会	O	M-TITLE
+海	O	M-ORG
+会	O	E-ORG
+学	O	M-ORG
+会	O	E-ORG
+江	O	M-ORG
+财	O	M-ORG
+经	O	M-ORG
+学	O	M-ORG
+院	O	E-ORG
+
+[1, 9, 9, 4, 年, 9, 月, 起, 任, 安, 徽, 省, 巢, 湖, 水, 泥, 厂, 学, 校, 教, 师, 。, <end>]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+厂	M-ORG	E-ORG
+学	M-ORG	B-TITLE
+校	E-ORG	M-TITLE
+教	B-TITLE	M-TITLE
+
+[2, 0, 0, 0, 年, 1, 0, 月, 至, 2, 0, 1, 1, 年, 8, 月, 历, 任, 金, 科, 集, 团, 规, 划, 设, 计, 中, 心, 总, 经, 理, ，, 金, 科, 集, 团, 副, 总, 经, 理, 、, 常, 务, 副, 总, 经, 理, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+团	M-ORG	E-ORG
+规	M-ORG	B-TITLE
+划	M-ORG	M-TITLE
+设	M-ORG	M-TITLE
+计	M-ORG	M-TITLE
+中	M-ORG	M-TITLE
+心	E-ORG	M-TITLE
+总	B-TITLE	M-TITLE
+
+[喻, 昌, 平, ，, 男, ，, 农, 工, 民, 主, 党, 党, 员, ，, 高, 级, 工, 程, 师, 。, <end>]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-NAME, M-NAME, E-NAME, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+农	B-ORG	B-TITLE
+工	M-ORG	M-TITLE
+民	M-ORG	M-TITLE
+主	M-ORG	M-TITLE
+党	E-ORG	M-TITLE
+党	B-TITLE	M-TITLE
+
+[1, 9, 8, 5, 年, 7, 月, 毕, 业, 于, 于, 武, 汉, 理, 工, 大, 学, （, 原, 武, 汉, 建, 筑, 材, 料, 工, 业, 学, 院, ）, 工, 业, 自, 动, 化, 专, 业, ，, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O]
+武	B-ORG	M-ORG
+
+[当, 选, 为, 全, 国, 劳, 动, 模, 范, ；, <end>]
+[O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O]
+全	B-TITLE	O
+国	M-TITLE	O
+劳	M-TITLE	O
+动	M-TITLE	O
+模	M-TITLE	O
+范	E-TITLE	O
+
+[全, 国, 优, 秀, 经, 营, 管, 理, 工, 作, 者, ；, <end>]
+[B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O]
+全	B-TITLE	O
+国	M-TITLE	O
+优	M-TITLE	O
+秀	M-TITLE	O
+经	M-TITLE	O
+营	M-TITLE	O
+管	M-TITLE	O
+理	M-TITLE	O
+工	M-TITLE	O
+作	M-TITLE	O
+者	E-TITLE	O
+
+[全, 国, 优, 秀, 党, 务, 工, 作, 者, ；, <end>]
+[B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, B-TITLE, M-TITLE, O, O, O, O]
+全	B-TITLE	O
+国	M-TITLE	O
+优	M-TITLE	O
+秀	M-TITLE	O
+党	M-TITLE	B-TITLE
+工	M-TITLE	O
+作	M-TITLE	O
+者	E-TITLE	O
+
+[第, 二, 届, 中, 国, “, 创, 业, 企, 业, 家, ”, ；, <end>]
+[B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O]
+第	B-TITLE	O
+二	M-TITLE	O
+届	M-TITLE	O
+中	M-TITLE	O
+国	M-TITLE	O
+“	M-TITLE	O
+创	M-TITLE	O
+家	M-TITLE	E-TITLE
+”	E-TITLE	O
+
+[并, 荣, 获, “, 五, 一, 劳, 动, 奖, 章, ”, ，, 是, 第, 九, 、, 十, 、, 十, 一, 、, 十, 二, 届, 全, 国, 人, 大, 代, 表, ，, 享, 受, 国, 务, 院, 政, 府, 特, 殊, 津, 贴, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, O, O, O, O, O, O, O, O, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O]
+第	B-TITLE	O
+九	M-TITLE	O
+、	M-TITLE	O
+十	M-TITLE	O
+、	M-TITLE	O
+十	M-TITLE	O
+一	M-TITLE	O
+、	M-TITLE	O
+十	M-TITLE	O
+二	M-TITLE	O
+届	M-TITLE	O
+全	M-TITLE	O
+国	M-TITLE	O
+人	M-TITLE	O
+大	M-TITLE	O
+代	M-TITLE	O
+表	E-TITLE	O
+
+[2, 0, 0, 9, 年, 1, 0, 月, 至, 今, 在, 招, 商, 局, 华, 建, 公, 路, 投, 资, 有, 限, 公, 司, 工, 作, ，, 曾, 在, 长, 庆, 石, 油, 勘, 探, 局, 、, 招, 商, 局, 集, 团, 博, 士, 后, 工, 作, 站, 工, 作, ，, 现, 任, 招, 商, 局, 华, 建, 公, 路, 投, 资, 有, 限, 公, 司, 投, 资, 发, 展, 部, 副, 总, 经, 理, ，, 兼, 任, 四, 川, 成, 渝, 高, 速, 公, 路, 股, 份, 有, 限, 公, 司, 副, 总, 经, 理, ，, 中, 国, 公, 路, 学, 会, 高, 速, 公, 路, 分, 会, 理, 事, 及, 中, 国, 公, 路, 学, 会, 青, 年, 专, 家, 会, 委, 员, ，, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+博	M-ORG	E-ORG
+士	M-ORG	O
+后	M-ORG	O
+工	M-ORG	O
+作	M-ORG	O
+站	E-ORG	O
+会	E-ORG	M-ORG
+青	B-TITLE	M-ORG
+年	M-TITLE	M-ORG
+专	M-TITLE	M-ORG
+家	M-TITLE	M-ORG
+会	M-TITLE	E-ORG
+委	M-TITLE	B-TITLE
+
+[2, 0, 1, 0, 年, 6, 月, 1, 日, 起, 至, 今, 任, 楚, 天, 高, 速, 董, 事, 。, <end>]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, E-TITLE, O]
+[O, O, O, O, O, O, O, O, O, O, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, B-TITLE, E-TITLE, O]
+速	E-ORG	M-ORG
+
+[复, 旦, 大, 学, 管, 理, 学, 院, 会, 计, 学, 专, 业, 毕, 业, ，, 中, 国, 社, 会, 科, 学, 院, 研, 究, 生, 院, 货, 币, 银, 行, 学, 专, 业, 毕, 业, ，, 法, 国, 巴, 黎, H, E, C, 商, 学, 院, E, M, B, A, （, 教, 育, 部, 留, 学, 认, 证, ）, ；, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-EDU, M-EDU, M-EDU, E-EDU, O, O, O, O, O, O, O, O, O, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-PRO, M-PRO, M-PRO, M-PRO, M-PRO, M-PRO, E-PRO, O, O, O, B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, O, O, O, O, O, O, O, O, O, O]
+院	E-ORG	M-ORG
+E	B-EDU	M-ORG
+M	M-EDU	M-ORG
+B	M-EDU	M-ORG
+A	E-EDU	O
+
+[北, 京, 双, 鹤, 药, 业, 股, 份, 有, 限, 公, 司, 金, 鹤, 工, 程, （, 信, 息, 化, 建, 设, ）, 总, 经, 理, （, 兼, ）, ，, 公, 司, 董, 事, 、, 副, 总, 经, 理, 兼, 财, 务, 总, 监, 。, <end>]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, M-TITLE, E-TITLE, O, O, O, O, B-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+[B-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, M-ORG, M-ORG, M-ORG, M-ORG, O, O, M-ORG, M-ORG, M-ORG, M-ORG, E-ORG, B-TITLE, M-TITLE, E-TITLE, O, O, O, O, B-ORG, E-ORG, B-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O, B-TITLE, M-TITLE, M-TITLE, E-TITLE, O]
+金	B-TITLE	M-ORG
+鹤	M-TITLE	M-ORG
+工	M-TITLE	M-ORG
+程	M-TITLE	M-ORG
+（	M-TITLE	O
+信	M-TITLE	O
+息	M-TITLE	M-ORG
+化	M-TITLE	M-ORG
+建	M-TITLE	M-ORG
+设	M-TITLE	M-ORG
+）	M-TITLE	E-ORG
+总	M-TITLE	B-TITLE
+
