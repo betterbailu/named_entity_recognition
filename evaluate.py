@@ -71,11 +71,12 @@ def bilstm_train_and_eval(train_data, dev_data, test_data,
     out_size = len(tag2id)
     bilstm_model = BILSTM_Model(vocab_size, out_size, crf=crf)
 
-    test_word_lists = [x for x in test_word_lists if x != []]
-    test_tag_lists = [x for x in test_tag_lists if x != []]
-
-    dev_word_lists = [x for x in dev_word_lists if x != []]
-    dev_tag_lists = [x for x in dev_tag_lists if x != []]
+    #英文数据集存在空列表情况
+    # test_word_lists = [x for x in test_word_lists if x != []]
+    # test_tag_lists = [x for x in test_tag_lists if x != []]
+    #
+    # dev_word_lists = [x for x in dev_word_lists if x != []]
+    # dev_tag_lists = [x for x in dev_tag_lists if x != []]
 
     bilstm_model.train(train_word_lists, train_tag_lists,
                        dev_word_lists, dev_tag_lists, word2id, tag2id)

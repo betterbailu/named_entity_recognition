@@ -60,8 +60,10 @@ def flatten_lists(lists):
 
 def error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, filepath):
     fr = open(filepath,'w')
+    count = 0
     for i in range(len(test_tag_lists)):
         if test_tag_lists[i] != pred_tag_lists[i]:
+            count += 1
             fr.write(str(test_word_lists[i]).replace("'",'').strip()+"\n")
             fr.write(str(test_tag_lists[i]).replace("'",'').strip()+"\n")
             fr.write(str(pred_tag_lists[i]).replace("'",'').strip()+"\n")
@@ -71,6 +73,7 @@ def error_analysis(test_word_lists, test_tag_lists, pred_tag_lists, filepath):
                     fr.write(str(test_tag_lists[i][j])+ "\t")
                     fr.write(str(pred_tag_lists[i][j])+"\n")
             fr.write("\n")
+    fr.write("the right precent is {}".format(1-count/len(test_tag_lists)))
     fr.close()
 
 def data_clean(filename,outpath):
@@ -87,5 +90,5 @@ def data_clean(filename,outpath):
     out.close()
 
 if __name__ == "__main__":
-    data_clean("./ResumeNER/eng","./ResumeNER/eng")
+    data_clean("./ResumeNER/dev.txt","./ResumeNER/dev.new")
 
